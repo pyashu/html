@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function count(){
+            if(document.getElementById('c1','h1','f1').checked)
+               alert("You have selected 3 Checkbox")
+
+            else if(document.getElementById('c1','h1')) 
+               alert("You have selected 2 Checkbox")  
+        }
+    </script>
+</head>
+<body><center>
+    <h1>select Hobby</h1>
+    <input type="checkbox" id="c1" name="Cricket" value="cricket" checked>Cricket
+    <br>
+    <input type="checkbox" id="h1" name="Hockey" value="hockey">Hockey
+    <br>
+    <input type="checkbox" id="f1" name="Football" value="football">Football
+    <br><br>
+    <input type="button" value="check" onclick="count()">
+</body>
+</html>
